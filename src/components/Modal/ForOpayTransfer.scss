@@ -1,0 +1,122 @@
+.contents {
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    background-color: var(--colorlight);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.search {
+    position: relative;
+    margin-bottom: 10px;
+
+    input,
+    text-area {
+        background-color: var(--colorlight);
+        padding-left: 20px;
+        color: var(--colorMid);
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+
+    .icon {
+        position: absolute;
+        font-size: 25px;
+        top: 13px;
+        right: 18px;
+        color: var(--colorDark);
+    }
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid var(--colorMid);
+
+
+
+    p {
+        padding: 15px 0 15px;
+        font-size: 16px;
+
+        border-bottom: 2px solid var(--colorSecondary);
+    }
+}
+
+.accounts {
+    display: flex;
+    margin: 20px 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--colorMid);
+    justify-content: flex-start;
+    // align-items: center;
+
+    &__details {
+
+        &--name {
+            text-transform: uppercase;
+
+        }
+
+        &--others {
+            display: flex;
+
+
+            p {
+                margin-left: 15px;
+                font-size: 13px;
+            }
+
+        }
+
+    }
+
+
+    &__logo {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 1px solid var(--colorSecondary);
+
+
+    }
+}
+
+.button {
+    margin-bottom: 10px;
+
+}
+
+.otherUsers {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--colorlight);
+
+    &__icon {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--colorSecondary);
+        background-color: var(--colorSecondaryVariant);
+    }
+
+
+    
+}
+

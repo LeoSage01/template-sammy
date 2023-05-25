@@ -1,0 +1,107 @@
+.container {
+    position: relative;
+    background-color: var(--colorlight);
+    border-radius: 5px;
+}
+
+.search {
+
+    form {
+        padding-bottom: 0px;
+    }
+
+    input,
+    text-area {
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    &__icon {
+        position: absolute;
+        font-size: 25px;
+        top: 30px;
+        left: 38px;
+        color: var(--colorDark);
+    }
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid var(--colorMid);
+
+
+
+    p {
+        padding: 15px 0 15px;
+        font-size: 16px;
+
+        border-bottom: 2px solid var(--colorSecondary);
+
+
+
+    }
+}
+
+.accounts {
+    display: flex;
+    margin: 20px 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--colorMid);
+    align-items: center;
+
+    &__details {
+        margin-right: 10px;
+
+        &--name {
+            text-transform: uppercase;
+            font-size: 16px;
+
+        }
+
+        &--others {
+            display: flex;
+
+
+            p {
+                margin-right: 10px;
+                font-size: 13px;
+            }
+
+        }
+
+    }
+
+
+    &__logo {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 1px solid var(--colorSecondary);
+        align-self: flex-end;
+
+    }
+}
+
+.button {
+    margin: 0px auto;
+    padding: 5px;
+    width: 110px;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--colorMid);
+
+    p {
+        font-size: 13px;
+    }
+
+
+    .icon {
+        color: var(--colorDark);
+    }
+}
+

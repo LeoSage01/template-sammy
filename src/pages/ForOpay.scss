@@ -1,0 +1,32 @@
+.wrap {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    &__img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--colorMid);;
+        font-size: 40px;
+    }
+
+    &__details {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
